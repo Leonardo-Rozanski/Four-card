@@ -5,12 +5,43 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+body {
+  background-color:  var(--Very-Light-Gray);
+}
 :root {
-  --Red: hsl(0, 78%, 62%)
-  --Cyan: hsl(180, 62%, 55%)
-  --Orange: hsl(34, 97%, 64%)
-  --Blue: hsl(212, 86%, 64%)
-  --Very-Dark-blue: hsl(234, 12%, 34%)
-  --Grayish-Blue: hsl(229, 6%, 66%)
-  --Very-Light-Gray: hsl(0, 0%, 98%)
-};
+  --Red: hsl(0, 78%, 62%);
+  --Cyan: hsl(180, 62%, 55%);
+  --Orange: hsl(34, 97%, 64%);
+  --Blue: hsl(212, 86%, 64%);
+  --Very-Dark-blue: hsl(234, 12%, 34%);
+  --Grayish-Blue: hsl(229, 6%, 66%);
+  --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+.container {
+  padding: 80px 10px 80px 10px;
+}
+/* ############################## HEADER #################################*/
+
+header  div  {
+  text-align: center;
+  color: var(--Grayish-Blue);
+  max-width: 90%;
+  margin: 0 auto;
+}
+header div gh1 {
+  font-weight: 400;
+  font-size: 18pt;
+}
+header div span {
+  font-weight: 700;
+  font-size: 18.8pt;
+  color: var(--Very-Dark-blue);
+}
+header div p {
+  text-align: justify;
+  width: 90%;
+  font-size: 12pt;
+  display: inline;
+}
+
+/* ############################## MAIN ####################################*/
