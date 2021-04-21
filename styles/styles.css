@@ -8,6 +8,20 @@
 body {
   background-color:  var(--Very-Light-Gray);
 }
+h1{
+  color: var(--Grayish-Blue);
+  font-weight: 400;
+  font-size: 18pt;
+}
+h2, span {
+  color: var(--Very-Dark-blue);
+  font-size: 16pt;
+  margin-bottom: 10px;
+}
+p {
+  font-size: 9pt;
+  color: var(--Grayish-Blue)
+}
 :root {
   --Red: hsl(0, 78%, 62%);
   --Cyan: hsl(180, 62%, 55%);
@@ -20,28 +34,52 @@ body {
 .container {
   padding: 80px 10px 80px 10px;
 }
+
 /* ############################## HEADER #################################*/
 
 header  div  {
   text-align: center;
-  color: var(--Grayish-Blue);
   max-width: 90%;
   margin: 0 auto;
-}
-header div gh1 {
-  font-weight: 400;
-  font-size: 18pt;
 }
 header div span {
   font-weight: 700;
   font-size: 18.8pt;
-  color: var(--Very-Dark-blue);
 }
 header div p {
-  text-align: justify;
-  width: 90%;
-  font-size: 12pt;
-  display: inline;
+  font-size: 11pt;
+  width: 300px;
+  margin: 20px auto;
 }
 
 /* ############################## MAIN ####################################*/
+ 
+.supervisor, .team, .karma, .calculator {
+  margin: 70px auto -45px;
+  width: 300px;
+  border-top: 3px solid var(--Cyan);
+  border-radius: 5px;
+  padding: 20px 25px 120px;
+  background-color: white;
+  box-shadow: 0px 9px 34px 0px rgba(0,0,0,0.21);
+  background-image: url(/asstes/img/icon-supervisor.svg);
+  background-repeat: no-repeat;
+  background-position-x: 90%;
+  background-position-y: 85%;
+  background-size: 18%;
+}
+.team {
+  background-image: url(/asstes/img/icon-team-builder.svg);
+  border-top: 3px solid var(--Red);
+  width: 300px;
+}
+.karma {
+  background-image: url(/asstes/img/icon-karma.svg);
+  border-top: 3px solid var(--Orange);
+  width: 300px;
+}
+.calculator {
+  background-image: url(/asstes/img/icon-calculator.svg);
+  border-top: 3px solid var(--Blue);
+  width: 300px;
+}
