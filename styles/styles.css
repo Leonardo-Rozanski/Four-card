@@ -93,11 +93,11 @@ header div p {
       grid-template-areas: 
             "c a d"
             "c b d";
-      width: 1440px;
+      width: 1200px;
       margin: 0 auto;
     }
     header {
-      width: 1440px;
+      width: 1200px;
       margin: 0 auto;
     }
     header div h1{
