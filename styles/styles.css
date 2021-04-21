@@ -127,12 +127,12 @@ header div p {
     .supervisor {
       grid-area: c;
       margin-top: 210px;
-      margin-right: -40px;
+      margin-right: 5px;
     }
     .calculator {
       grid-area: d;
       margin-top: 210px;
-      margin-left: -40px;
+      margin-left: 0px;
     }
     .calculator, .supervisor, .karma, .team{
       height: 250px;
